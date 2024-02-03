@@ -1,0 +1,123 @@
+\documentclass{report}
+%-----------------------------------------------------
+%                       PACKAGES
+% ----------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage[colorlinks=true, linkcolor=blue,citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{colortbl}
+\usepackage{tabularx,booktabs}
+\usepackage{enumerate}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{nicefrac, xfrac}
+\usepackage{subfiles}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{tikz}
+\usepackage[mode=buildnew]{standalone}
+\usepackage{systeme}
+\usepackage{stmaryrd}
+\usepackage{import}
+\usepackage[english]{babel} 
+\usepackage{times}
+\usepackage{pgfplots}
+\usepackage{makecell}
+\usepackage{threeparttable}
+\usepackage{ragged2e}
+\usepackage{tocloft}
+\usepackage{booktabs}
+
+%-----------------------------------------------------
+%               DOCUMENT SETTINGS
+% ----------------------------------------------------
+\geometry{a4paper,top=30mm,bottom=20mm,left=30mm,right=20mm}
+
+\pgfplotsset{compat=1.17} 
+
+% Defining spaces between lines
+\setstretch{1.5} 
+
+\graphicspath{{Figures/}}
+
+\tikzset{
+	font={\fontsize{11pt}{12}\selectfont}}
+%-----------------------------------------------------
+%              PRE TEXTUAL ELEMENTS
+% ----------------------------------------------------
+\newenvironment{epigrafe}{\newpage\mbox{}\vfill\hfill\begin{minipage}[t]{0.5\textwidth}}
+{\end{minipage}\newpage}
+
+%-----------------------------------------------------
+%               DOCUMENT INFORMATION
+% ----------------------------------------------------
+\begin{document}
+
+%-----------------------------------------------------
+%               PRE TEXTUAL PAGES
+% ----------------------------------------------------
+% Could not find another way to remove the page number from the first pages
+\fancypagestyle{plain}{
+    \fancyhf{}% Limpa todos os campos
+    \fancyfoot[C]{}%
+    \renewcommand{\headrulewidth}{0pt}%
+}
+
+\newpage
+\input{FirstPages/Cover.tex} % Cover page
+
+\input{FirstPages/Epigraph.tex} % First pages
+
+\input{FirstPages/Abstract.tex} % Abstract
+
+{\newpage
+\listoffigures} % List of figures
+
+{\newpage
+\listoftables} % List of tables
+
+\newpage
+\tableofcontents % Table of contents
+
+\newpage
+% from here on, the page number is shown
+% Chapter first page settings
+\fancypagestyle{plain}{
+    \fancyhf{}% Limpa todos os campos
+    \fancyhead[R]{\thepage}%
+    \renewcommand{\headrulewidth}{0pt}%
+}
+
+\fancypagestyle{headings}{%
+    \fancyhf{}% Limpa todos os campos
+    \fancyhead[L]{\textsc{\nouppercase{\leftmark}}}
+    \fancyhead[R]{\thepage}% Numero da página à direita
+    \renewcommand{\headrulewidth}{1pt}%
+}
+
+\pagestyle{headings}
+
+%-----------------------------------------------------
+%                    CHAPTERS
+% ----------------------------------------------------
+\input{Chapters/Chp1.tex}
+
+%-----------------------------------------------------
+%                    BIBLIOGRAPHY
+% ----------------------------------------------------
+\bibliographystyle{unsrt}
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{References}
+
+\end{document}

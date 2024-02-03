@@ -1,0 +1,4 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}sjnsa}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}aans}{8}{section.1.1}%
+\contentsline {chapter}{Bibliography}{8}{section.1.1}%
