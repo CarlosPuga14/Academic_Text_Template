@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.9)  3 FEB 2024 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.9)  3 FEB 2024 23:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -823,31 +823,209 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip122
 \cfttabindent=\skip123
 \cfttabnumwidth=\skip124
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count337
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 65.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+\@glsmfirst=\toks52
+\@glsmrest=\toks53
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count338
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count339
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count340
+\FP@xia=\count341
+\FP@xib=\count342
+\FP@xfa=\count343
+\FP@xfb=\count344
+\FP@rega=\count345
+\FP@regb=\count346
+\FP@regs=\count347
+\FP@times=\count348
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count349
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks54
+\@dtl@tmpcount=\count350
+\dtl@tmplength=\skip125
+\dtl@sortresult=\count351
+\@dtl@numgrpsepcount=\count352
+\@dtl@datatype=\count353
+\dtl@codeA=\count354
+\dtl@codeB=\count355
+\@dtl@foreach@level=\count356
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/tracklang/tracklang.tex)) (/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
+File: glossaries-english.ldf 2014/11/23 v1.0
+)
+\gls@level=\count357
+\@gls@tmpb=\toks55
+\gls@tmplen=\skip126
+\glskeylisttok=\toks56
+\glslabeltok=\toks57
+\glsshorttok=\toks58
+\glslongtok=\toks59
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip127
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip128
+\LTright=\skip129
+\LTpre=\skip130
+\LTpost=\skip131
+\LTchunksize=\count358
+\LTcapwidth=\dimen347
+\LT@head=\box74
+\LT@firsthead=\box75
+\LT@foot=\box76
+\LT@lastfoot=\box77
+\LT@cols=\count359
+\LT@rows=\count360
+\c@LT@tables=\count361
+\c@LT@chunks=\count362
+\LT@p@ftn=\toks60
+)
+\glsdescwidth=\skip132
+\glspagelistwidth=\skip133
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count363
+\ST@wd=\dimen348
+\ST@rightskip=\skip134
+\ST@leftskip=\skip135
+\ST@parfillskip=\skip136
+\ST@pageleft=\dimen349
+\ST@headht=\dimen350
+\ST@tailht=\dimen351
+\ST@pagesofar=\dimen352
+\ST@pboxht=\dimen353
+\ST@lineht=\dimen354
+\ST@prevht=\dimen355
+\ST@toadd=\dimen356
+\ST@dimen=\dimen357
+\ST@pbox=\box78
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip137
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen358
+\ESO@tempdimb=\dimen359
+)
+\AM@pagewidth=\dimen360
+\AM@pageheight=\dimen361
+\AM@fboxrule=\dimen362
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count364
+\AM@pagebox=\box79
+\AM@global@opts=\toks61
+\AM@pagecnt=\count365
+\AM@toc@title=\toks62
+\c@AM@survey=\count366
+\AM@templatesizebox=\box80
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language88
+LaTeX Info: Redefining \_ on input line 43.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+
+Package glossaries Warning: Use of \makeglossary with glossaries.sty is 
+(glossaries)                deprecated. Use \makeglossaries instead. If you 
+(glossaries)                need the original definition of \makeglossary use 
+(glossaries)                the package options kernelglossredefs=false (to 
+(glossaries)                restore the former definition of \makeglossary) and 
+(glossaries)                nomain (if the file extensions cause a conflict) on input line 78.
+
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 78.
+\glo@acronym@file=\write6
+\openout6 = `main.acn'.
+
+Package glossaries Info: Writing glossary file main.acn on input line 78.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 90.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/Users/CarlosPuga/Latex/Masters_Dissertation/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -883,7 +1061,7 @@ LaTeX Font Info:    ... okay on input line 65.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 65.
+Package hyperref Info: Link coloring ON on input line 90.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -891,28 +1069,28 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count337
+\c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
-LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
  (/Users/CarlosPuga/Latex/Masters_Dissertation/main.out) (/Users/CarlosPuga/Latex/Masters_Dissertation/main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
+\@outlinefile=\write7
+\openout7 = `main.out'.
 
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
-\scratchdimen=\dimen347
-\scratchbox=\box74
-\nofMPsegments=\count339
-\nofMParguments=\count340
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count341
-\MPscratchDim=\dimen348
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count368
+\scratchdimen=\dimen363
+\scratchbox=\box81
+\nofMPsegments=\count369
+\nofMParguments=\count370
+\everyMPshowfont=\toks63
+\MPscratchCnt=\count371
+\MPscratchDim=\dimen364
+\MPnumerator=\count372
+\makeMPintoPDFobject=\count373
+\everyMPtoPDFconversion=\toks64
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -920,64 +1098,101 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.17}).
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 65.
- (/Users/CarlosPuga/Latex/Masters_Dissertation/FirstPages/Cover.tex) (/Users/CarlosPuga/Latex/Masters_Dissertation/FirstPages/Epigraph.tex [1
+LaTeX Info: Redefining \selectfont on input line 90.
+ (/Users/CarlosPuga/Latex/Masters_Dissertation/main.glsdefs) (/usr/local/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) (/Users/CarlosPuga/Latex/Masters_Dissertation/FirstPages/Cover.tex
+<Figures/logo-unicamp.pdf, id=39, 481.8pt x 481.8pt>
+File: Figures/logo-unicamp.pdf Graphic file (type pdf)
+<use Figures/logo-unicamp.pdf>
+Package pdftex.def Info: Figures/logo-unicamp.pdf  used on input line 30.
+(pdftex.def)             Requested size: 62.59596pt x 62.59209pt.
+) [1
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (/Users/CarlosPuga/Latex/Masters_Dissertation/FirstPages/Abstract.tex [2
+\openout4 = `main.ist'.
 
-]) [3
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/CarlosPuga/Latex/Masters_Dissertation/Figures/logo-unicamp.pdf>] (/Users/CarlosPuga/Latex/Masters_Dissertation/FirstPages/Title.tex) [2] (/Users/CarlosPuga/Latex/Masters_Dissertation/FirstPages/BlankPage.tex) (/Users/CarlosPuga/Latex/Masters_Dissertation/FirstPages/Epigraph.tex [3] [4]) (/Users/CarlosPuga/Latex/Masters_Dissertation/FirstPages/Acknowledgements.tex) (/Users/CarlosPuga/Latex/Masters_Dissertation/FirstPages/Abstract.tex [5
 
-] (/Users/CarlosPuga/Latex/Masters_Dissertation/main.lof)
-\tf@lof=\write5
-\openout5 = `main.lof'.
+] [6
 
- [4] (/Users/CarlosPuga/Latex/Masters_Dissertation/main.lot)
-\tf@lot=\write6
-\openout6 = `main.lot'.
+]) [7
 
- [5] (/Users/CarlosPuga/Latex/Masters_Dissertation/main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+] (/Users/CarlosPuga/Latex/Masters_Dissertation/main.lof
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 2.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 3.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/stmaryrd/Ustmry.fd))
-\tf@toc=\write7
-\openout7 = `main.toc'.
+\tf@lof=\write8
+\openout8 = `main.lof'.
 
- [6] (/Users/CarlosPuga/Latex/Masters_Dissertation/Chapters/Chp1.tex
+ [8] (/Users/CarlosPuga/Latex/Masters_Dissertation/main.lot)
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
+ (/Users/CarlosPuga/Latex/Masters_Dissertation/main.gls [9]) (/Users/CarlosPuga/Latex/Masters_Dissertation/main.acr [10
+
+
+]) [11
+
+
+] (/Users/CarlosPuga/Latex/Masters_Dissertation/main.toc)
+\tf@toc=\write10
+\openout10 = `main.toc'.
+
+ [12] (/Users/CarlosPuga/Latex/Masters_Dissertation/Chapters/Chp1.tex
 Chapter 1.
-[7
+[13
 
-]) (/Users/CarlosPuga/Latex/Masters_Dissertation/main.bbl [8]) [9
+]
+<Figures//Example.jpeg, id=129, 269.005pt x 148.555pt>
+File: Figures//Example.jpeg Graphic file (type jpg)
+<use Figures//Example.jpeg>
+Package pdftex.def Info: Figures//Example.jpeg  used on input line 24.
+(pdftex.def)             Requested size: 269.00433pt x 148.55463pt.
+) (/Users/CarlosPuga/Latex/Masters_Dissertation/main.bbl [14 </Users/CarlosPuga/Latex/Masters_Dissertation/Figures//Example.jpeg>]) (/Users/CarlosPuga/Latex/Masters_Dissertation/Appendix/Appendix.tex [15
+
+]
+Appendix A.
+) [16
 
 ] (/Users/CarlosPuga/Latex/Masters_Dissertation/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EC56B8B132B3BDF77C0A4A9746B9894F;247.
+(rerunfilecheck)             Checksum: AF06774225172425F00EF97EC0E5DE85;825.
  ) 
 Here is how much of TeX's memory you used:
- 36606 strings out of 478994
- 813385 string characters out of 5858185
- 1260823 words of memory out of 5000000
- 53339 multiletter control sequences out of 15000+600000
- 436191 words of font info for 65 fonts, out of 8000000 for 9000
+ 43616 strings out of 478994
+ 947257 string characters out of 5858185
+ 1635557 words of memory out of 5000000
+ 60149 multiletter control sequences out of 15000+600000
+ 445516 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,11n,102p,766b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/CarlosPuga/Latex/Masters_Dissertation/main.pdf (9 pages, 55764 bytes).
+ 102i,11n,102p,1050b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/CarlosPuga/Latex/Masters_Dissertation/main.pdf (16 pages, 96098 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,7 @@
 \documentclass{report}
+
 %-----------------------------------------------------
-%                       PACKAGES
+%                      PACKAGES
 % ----------------------------------------------------
 \usepackage[T1]{fontenc}
 \usepackage[latin9]{inputenc}
@@ -38,6 +39,11 @@
 \usepackage{ragged2e}
 \usepackage{tocloft}
 \usepackage{booktabs}
+\usepackage[acronym]{glossaries}
+\usepackage{pdfpages}
+\usepackage{lipsum}
+\usepackage{hyphenat} 
+\usepackage{xspace}
 
 %-----------------------------------------------------
 %               DOCUMENT SETTINGS
@@ -53,6 +59,12 @@
 
 \tikzset{
 	font={\fontsize{11pt}{12}\selectfont}}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+% defining the height of table cells
+\renewcommand{\arraystretch}{1.2}
 %-----------------------------------------------------
 %              PRE TEXTUAL ELEMENTS
 % ----------------------------------------------------
@@ -60,13 +72,37 @@
 {\end{minipage}\newpage}
 
 %-----------------------------------------------------
-%               DOCUMENT INFORMATION
+%               GLOSSARY & ACRONYMS
 % ----------------------------------------------------
-\begin{document}
+% theorically, you should have a file for each glossary and acronym but for the sake of simplicity, I will put everything in the same file here so every chapter can access it
+\makeglossary
+
+\newacronym{cfd}{CFD}{Computational Fluid Dynamics}
+
+\newglossaryentry{a1}{
+    name = {A1},
+    description = {This is the description of A1}
+}
 
 %-----------------------------------------------------
-%               PRE TEXTUAL PAGES
+%                     DOCUMENT 
 % ----------------------------------------------------
+\begin{document}
+% ------- DOCUMENT INFORMATION -------
+\author{Carlos Henrique Chama Puga}
+\title{Numerical Simulation of Head Loss in Pipes for Oil Extraction}
+
+\def\titulo{Simula\c{c}\~{a}o Num\'{e}rica de Perda de Carga em Tubula\c{c}\~{o}es para Extra\c{c}\~{a}o de Petr\'{o}leo}
+
+\def\Uni{{Universidade Estadual de Campinas}}
+\def\Fac{{Faculdade de Engenharia Civil, Arquitetura e Urbanismo}}
+
+\def\advisor{Prof. Dr. Philippe Remy Bernard Devloo}
+\def\coadvisor{Prof. Dr. Nathan Shauer}
+
+\makeatletter
+
+% ------- PRE TEXTUAL PAGES -------
 % Could not find another way to remove the page number from the first pages
 \fancypagestyle{plain}{
     \fancyhf{}% Limpa todos os campos
@@ -74,25 +110,45 @@
     \renewcommand{\headrulewidth}{0pt}%
 }
 
-\newpage
+\pagestyle{plain}
 \input{FirstPages/Cover.tex} % Cover page
 
-\input{FirstPages/Epigraph.tex} % First pages
+\newpage
+\input{FirstPages/Title.tex} % Description page
 
+% when you already have the catalografi card, you need to comment the next line
+\newpage
+\input{FirstPages/BlankPage.tex} % Blank page
+% and add the Catalografic card
+% \\includepdf[pages=-]{FirstPages/CatalograficCard.pdf} 
+
+% if you don't want to include the epigraph, you can comment the next line
+\input{FirstPages/Epigraph.tex} % Epigraph
+
+% including the aknowledgements is a good practice
+\input{FirstPages/Acknowledgements.tex} % Acknowledgements
+
+% every work should have an abstract (in Brazil, you should have a resumo too)
 \input{FirstPages/Abstract.tex} % Abstract
 
-{\newpage
-\listoffigures} % List of figures
-
-{\newpage
-\listoftables} % List of tables
-
+% List of figures
 \newpage
-\tableofcontents % Table of contents
+\listoffigures 
 
+% List of tables
 \newpage
+\listoftables 
+
+\printglossary[nonumberlist] % Glossary
+\printglossary[type=\acronymtype, nonumberlist] % Acronyms
+
+% Table of contents
+\newpage
+\tableofcontents 
+
 % from here on, the page number is shown
 % Chapter first page settings
+\newpage
 \fancypagestyle{plain}{
     \fancyhf{}% Limpa todos os campos
     \fancyhead[R]{\thepage}%
@@ -106,18 +162,16 @@
     \renewcommand{\headrulewidth}{1pt}%
 }
 
+% ------- CHAPTERS -------
 \pagestyle{headings}
-
-%-----------------------------------------------------
-%                    CHAPTERS
-% ----------------------------------------------------
 \input{Chapters/Chp1.tex}
 
-%-----------------------------------------------------
-%                    BIBLIOGRAPHY
-% ----------------------------------------------------
+% ------- BIBLIOGRAPHY -------
 \bibliographystyle{unsrt}
 \addcontentsline{toc}{chapter}{Bibliography}
-\bibliography{References}
+\bibliography{References} 
 
+% ------- APPENDIX -------
+\appendix
+\input{Appendix/Appendix.tex}
 \end{document}

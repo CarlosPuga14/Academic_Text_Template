@@ -1,0 +1,60 @@
+\ifglsentryexists{cfd}{}%
+{%
+\gls@defglossaryentry{cfd}%
+{%
+name={CFD},%
+sort={CFD},%
+type={acronym},%
+first={Computational Fluid Dynamics\glsspace (CFD)},%
+firstplural={Computational Fluid Dynamicss\glsspace (CFDs)},%
+text={CFD},%
+plural={CFDs},%
+description={Computational Fluid Dynamics},%
+descriptionplural={Computational Fluid Dynamics\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Computational Fluid Dynamics},%
+longplural={Computational Fluid Dynamicss},%
+short={CFD},%
+shortplural={CFDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{a1}{}%
+{%
+\gls@defglossaryentry{a1}%
+{%
+name={\PackageError {glossaries}{name key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry name}},%
+sort={\PackageError {glossaries}{name key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry name}},%
+type={main},%
+first={\protect \GenericError {(glossaries) }{Package glossaries Error: name key required in \newglossaryentry for entry `a1'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}},%
+firstplural={\protect \GenericError {(glossaries) }{Package glossaries Error: name key required in \newglossaryentry for entry `a1'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}s},%
+text={\protect \GenericError {(glossaries) }{Package glossaries Error: name key required in \newglossaryentry for entry `a1'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}},%
+plural={\protect \GenericError {(glossaries) }{Package glossaries Error: name key required in \newglossaryentry for entry `a1'}{See the glossaries package documentation for explanation.}{You haven't specified the entry name}s},%
+description={\PackageError {glossaries} {description key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry description}},%
+descriptionplural={\PackageError {glossaries} {description key required in \string \newglossaryentry \space for entry `\@glo@label '}{You haven't specified the entry description}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -1,10 +1,48 @@
-\chapter{sjnsa}
+\chapter{Examples}
+% a good practice is to start each chapter with a summary
+\lipsum[1-2]
+
+\section{Equation}
 This is something
 \begin{equation}
     a = 1,
 \end{equation} \label{eq:1}
-\autoref{eq:1} represents something
+Equation \eqref{eq:1} represents something
+
+\section{Acronym and Glossary}
+\acrlong{cfd}, which is abbreviated \acrshort{cfd}. 
+
+This is a glossary example: \gls{a1}
 
 \newpage
-\section{aans}
-\cite{Lima_Thesis}
+\section{Citation}
+The information of \cite{Lima_Thesis} is pretty good.
+
+\section{Figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[]{Example.jpeg}
+    \caption{This is a figure}
+    \label{fig:1}
+\end{figure}
+
+Figure \ref{fig:1} is a good example of something
+
+\section{Table}
+% I think this sort of table is the prettiest way to do it
+\begin{table}[h]
+    \centering
+    \caption{This is a table}
+    \vspace*{2mm}
+    \begin{tabular}{cc}
+        \hline
+        $Val_1$ & $Val_2$ \\
+        \hline
+        1 & 2 \\
+        3 & 4 \\
+        \hline
+    \end{tabular}
+    \label{tab:1}
+\end{table}
+
+Table \ref{tab:1} is a good example of something
