@@ -2,3 +2,13 @@
 *.aux
 *.log
 *.toc
+
+# LaTeX Beamer
+*.snm
+*.vrb
+*.nav
+*.out
+
+# BibTeX
+*.bbl
+*.blg
