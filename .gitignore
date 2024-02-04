@@ -21,3 +21,14 @@
 
 # SyncTeX
 *.synctex.gz
+
+*.acn
+*.acr
+*.alg
+*.fls
+*.glg
+*.glo
+*.gls
+*.ist
+*.lof
+*.lot
