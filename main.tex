@@ -1,4 +1,4 @@
-\documentclass{report}
+\documentclass[a4paper, 12pt]{report}
 
 %-----------------------------------------------------
 %                      PACKAGES
@@ -44,6 +44,7 @@
 \usepackage{lipsum}
 \usepackage{hyphenat} 
 \usepackage{xspace}
+\usepackage{abntex2cite}
 
 %-----------------------------------------------------
 %               DOCUMENT SETTINGS
@@ -65,6 +66,8 @@
 
 % defining the height of table cells
 \renewcommand{\arraystretch}{1.2}
+
+\def\textcite#1{\citeauthoronline{#1} \cite{#1}}
 %-----------------------------------------------------
 %              PRE TEXTUAL ELEMENTS
 % ----------------------------------------------------
@@ -167,9 +170,9 @@
 \input{Chapters/Chp1.tex}
 
 % ------- BIBLIOGRAPHY -------
-\bibliographystyle{unsrt}
 \addcontentsline{toc}{chapter}{Bibliography}
-\bibliography{References} 
+\bibliographystyle{abntex2-num}
+\bibliography{References}
 
 % ------- APPENDIX -------
 \appendix
